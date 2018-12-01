@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Calibre';
+  src: url('../assets/fonts/calibre-regular-webfont.woff') format('woff'),
+       url('../assets/fonts/Calibre-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre-Light';
+  src: url('../assets/fonts/Calibre-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Calibre-Light';
+  font-size: 17px;
+  letter-spacing: 0.4px;
+  color: #676564;
+}
+
+.hero {
+  height: 1011px;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(21,21,21,0) 0%, #151515 100%);
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 30px;
+  border: 1px solid #DDDDDD;
+  padding: 0 3.95em 0 2em;
+  height: 60px;
+  line-height: 57px;
+  color: #676564;
+}
+
+.hero-btn {
+  background-color: #AFA196;
+  border: 0;
+}
+
+.icon-arrow::before {
+  content: "\e924";
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #E9EAE9;
+  height: 560px;
+  text-align: center;
+}
+
+.card {
+  flex: 1;
+}
+
+.card:nth-of-type(1) {
+  background-color: #f2f2f2;
+}
+
+.card:nth-of-type(2) {
+  background-color: #f6f7f6
+}
+
+.card:nth-of-type(3) {
+  background-color: #edeeed
+}
+
+
+h1 {
+  font-family: 'Interstate';
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 80px;
+  letter-spacing: 8px;
+  color: #AFA196;
+}
+
+h4 {
+  color: #151515;
+}
