@@ -26,6 +26,11 @@ body {
   background: linear-gradient(180deg, rgba(21,21,21,0) 0%, #151515 100%);
 }
 
+.hero-text p {
+  width: 560px;
+  margin: 0 auto;
+}
+
 .btn {
   display: inline-block;
   border-radius: 30px;
@@ -39,6 +44,7 @@ body {
 .hero-btn {
   background-color: #AFA196;
   border: 0;
+  color: #FFFFFF;
 }
 
 .icon-arrow::before {
