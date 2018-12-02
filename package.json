@@ -1,0 +1,31 @@
+{
+  "name": "invision-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinSanji/invision-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinSanji/invision-prototype/issues"
+  },
+  "homepage": "https://github.com/KevinSanji/invision-prototype#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "browserslist": [
+    "cover 99.5%"
+  ],
+  "dependencies": {
+    "autoprefixer": "^9.3.1"
+  }
+}
