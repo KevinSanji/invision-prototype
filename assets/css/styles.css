@@ -207,7 +207,7 @@ a {
        -o-background-size: 75% auto;
           background-size: 75% auto; }
 
-.sofa-card:hover::before, .sofa-card:active::before {
+.sofa-card:hover::before, .sofa-card.mobile-touch::before {
   background-image: url("../images/sofa-hover.png");
   -webkit-background-size: 100% auto;
      -moz-background-size: 100% auto;
@@ -224,7 +224,7 @@ a {
        -o-background-size: 55% auto;
           background-size: 55% auto; }
 
-.chair-card:hover::before, .sofa-card:active::before {
+.chair-card:hover::before, .chair.mobile-touch::before {
   background-image: url("../images/chair-hover.png");
   -webkit-background-size: 100% auto;
      -moz-background-size: 100% auto;
@@ -242,7 +242,7 @@ a {
           background-size: 50% auto;
   background-position: 50% 56%; }
 
-.ottoman-card:hover::before, .ottoman-card:active::before {
+.ottoman-card:hover::before, .ottoman-card.mobile-touch::before {
   background-image: url("../images/ottoman-hover.png");
   -webkit-background-size: 75% auto;
      -moz-background-size: 75% auto;
