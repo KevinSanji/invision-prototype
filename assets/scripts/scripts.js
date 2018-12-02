@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.hover').on('touchstart touchend', function(e) {
+    $('.hover').on('click', function(e) {
         e.preventDefault();
         $(this).toggleClass('mobile-touch');
     });
